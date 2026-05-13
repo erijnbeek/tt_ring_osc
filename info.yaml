@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "tt_ring_osc"      # Project title
+  title:        "Simple Ring Oscillator"      # Project title
   author:       "Emil"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Ring Oscillator Tryout"      # One line description of what your project does
@@ -25,17 +25,17 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[0]: "SEL0"
+  ui[1]: "SEL1"
+  ui[2]: "SEL2"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
-  ui[7]: ""
+  ui[7]: "AO_BUF_EN"
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "OUT"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
@@ -55,7 +55,7 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
+  ua[0]: "AO"
   ua[1]: ""
   ua[2]: ""
   ua[3]: ""
