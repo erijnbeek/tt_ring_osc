@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-The project revolves around a simple 5 inverter ring oscillator, which is a test to see to what extend the (pex) simulation match the reality.
+The project revolves around a simple 7 inverter ring oscillator, which is a test to see to what extend the (pex) simulation match the reality.
 Some muxes are added to divide the frequency up to 2^8 times to allow observation from outside the chip.
 
 The rsnt and ena allow the ring oscillator to start, the 2^8 divided result will be visible on OUT when SEL0 to SEL2 are LOW.
